@@ -1,0 +1,28 @@
+Django==4.2.7
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+djangorestframework-simplejwt==5.3.1
+# Pillow removed for local verification on Windows (requires build deps). Re-add if you need image support in production.
+python-decouple==3.8
+gunicorn==21.2.0
+daphne==4.0.0
+whitenoise==6.6.0
+psycopg2-binary==2.9.11
+dj-database-url==2.1.0
+
+# APK Analysis Tools
+androguard==4.1.2  # APK analysis library
+pyaxmlparser==0.3.29  # Android manifest parser
+
+# Android Component Fuzzing
+requests>=2.31.0  # HTTP library (general use)
+urllib3>=2.0.0  # HTTP client (general use)
+
+# AI-Powered Reporting
+google-genai>=1.0.0  # Google Gemini AI SDK (new, replaces deprecated google-generativeai)
+
+# PDF Generation & Security Analysis
+reportlab>=4.0.0  # Professional PDF generation
+pypdf2>=3.0.0  # PDF manipulation
+pyOpenSSL>=23.0.0  # Certificate analysis
+cryptography>=41.0.0  # Cryptographic security checks

@@ -1,0 +1,26 @@
+# APK Static Analysis Dependencies
+# Install these tools for full functionality:
+# 
+# 1. apktool - APK decompilation
+#    - Download from: https://apktool.org/
+#    - Place apktool.jar in tools/ directory
+#
+# 2. jadx - DEX to Java decompiler
+#    - Download from: https://github.com/skylot/jadx
+#    - Add jadx/bin to PATH
+#
+# 3. dex2jar (optional)
+#    - Download from: https://github.com/pxb1988/dex2jar
+#
+# 4. yara-python - Pattern matching
+yara-python>=4.3.0
+
+# For future malware detection
+# androguard>=3.4.0
+
+# PDF report generation
+reportlab>=4.0.0
+
+# For async task processing (recommended for production)
+# celery>=5.3.0
+# redis>=5.0.0

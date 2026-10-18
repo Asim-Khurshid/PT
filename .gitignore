@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+/backend/lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+/backend/venv/
+ENV/
+env/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+/backend/db.sqlite3
+/backend/media/apks/
+/backend/media/pcaps/
+/backend/media/reports/
+/backend/media/screenshots/
+/staticfiles
+
+# Keep media structure but ignore contents
+!backend/media/.gitkeep
+!backend/media/apks/.gitkeep
+!backend/media/pcaps/.gitkeep
+!backend/media/reports/.gitkeep
+!backend/media/screenshots/.gitkeep
+
+# Node
+node_modules/
+npm-debug.log
+.next/
+out/
+build/
+dist/
+
+# Platform Tools (ADB, etc)
+platform-tools/
+
+# Environment
+.env
+.env.local
+.env.*.local
+/backend/.env
+
+# Generated exports
+/exports/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Snyk Security Extension - AI Rules (auto-generated)
+.github\instructions\snyk_rules.instructions.md
+
+# Fuzzing seeds (internal, do not commit)
+/fuzzing_seeds/
+# backend path fallback (in case relative paths differ)
+/backend/fuzzing_seeds/
